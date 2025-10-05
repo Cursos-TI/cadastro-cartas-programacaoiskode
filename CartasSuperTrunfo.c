@@ -99,9 +99,6 @@ vvvvvvvvvvvvvv
 Estado: Apenas letras de A a H
 Código da Carta: A letra do estado seguida de um número de 01 a 04
 População: Apenas números inteiros positivos
-Área: Apenas números positivos (podem ser decimais)
-PIB: Apenas números positivos (podem ser decimais)
-Número de Pontos Turísticos: Apenas números inteiros positivos  
 
 
 */
