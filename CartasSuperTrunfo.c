@@ -5,7 +5,7 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
-    // Área para apresentação do desafio
+    // Área para apresentação e contexto do desafio
     printf("Desafio Cartas Super Trunfo!\n"); 
     printf("\n");
     printf("Digite os dados da primeira carta:\n");
@@ -23,92 +23,91 @@ int main() {
     float PIB;
     int Numero_de_Pontos_Turisticos;
 
-    // Área para entrada e saída dos dados das cartas
+        // Área para entrada e saída dos dados das cartas
 
-    printf("Carta 1 \n");
-    printf("\n");
-    printf("Estado: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%s", &Estado); // Área para ---colher os dados inseridos pelo usuario
+        printf("Carta 1 \n");
+        printf("\n");
+        printf("Insira uma letra de 'A' a 'H' para representar o Estado: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%c", &Estado); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("Codigo da Carta: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%s", &Codigo_da_Carta); // Área para ---colher os dados inseridos pelo usuario
+        printf("Para o Codigo da Carta, insira a letra do Estado seguida de um número de 01 a 04: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%s", Codigo_da_Carta); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("Nome da Cidade: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%s", &Nome_da_Cidade); // Área para ---colher os dados inseridos pelo usuario
+        printf("Nome da Cidade: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%s", Nome_da_Cidade); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("Populacao: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%i", &populacao); // Área para ---colher os dados inseridos pelo usuario
+        printf("Populacao: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%i", &populacao); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("Area: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%f", &Area); // Área para ---colher os dados inseridos pelo usuario
+        printf("Area: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%f", &Area); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("PIB: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%f", &PIB); // Área para ---colher os dados inseridos pelo usuario
+        printf("PIB: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%f", &PIB); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("Numero de Pontos Turisticos: \n"); // Área para solicitar os dados da carta ao usuario
-    scanf("%i", &Numero_de_Pontos_Turisticos); // Área para ---colher os dados inseridos pelo usuario
+        printf("Numero de Pontos Turisticos: \n"); // Área para solicitar os dados da carta ao usuario
+        scanf("%i", &Numero_de_Pontos_Turisticos); // Área para ---colher os dados inseridos pelo usuario
 
-    printf("\n");
-    //Área de apresentação dos dados da primeira carta
-    printf("Carta 1 \n"); 
-    printf("Codigo da Carta: %s \n", Codigo_da_Carta);
-    printf("Nome da Cidade: %s \n", Nome_da_Cidade);
-    printf("Populacao: %.2i \n", populacao);
-    printf("Area: %.2f km2\n", Area);
-    printf("PIB: %.2f dólares\n", PIB);
-    printf("Numero de Pontos Turisticos: %i \n", Numero_de_Pontos_Turisticos);
+        printf("\n");
 
+        //Área de apresentação dos dados da primeira carta
 
-    printf("\n");
-    // Repetir o processo para a segunda carta
-    printf("Digite os dados da segunda carta:\n");
-    printf("Carta 2 \n");
-    printf("Estado: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%s", &Estado); // Área para ---colher os dados inseridos pelo usuario
-    printf("Codigo da Carta: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%s", &Codigo_da_Carta); // Área para ---colher os dados inseridos pelo usuario
-    printf("Nome da Cidade: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%s", &Nome_da_Cidade); // Área para ---colher os dados inseridos pelo usuario
-    printf("Populacao: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%i", &populacao); // Área para ---colher os dados inseridos pelo usuario
-    printf("Area: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%f", &Area); // Área para ---colher os dados inseridos pelo usuario
-    printf("PIB: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%f", &PIB); // Área para ---colher os dados inseridos pelo usuariogit 
-    printf("Numero de Pontos Turisticos: \n"); // Área para >>>solicitar os dados da carta ao usuario
-    scanf("%i", &Numero_de_Pontos_Turisticos); // Área para ---colher os dados inseridos pelo usuario
-    printf("\n");
-    //Área de apresentação dos dados da segunda carta
-    printf("Carta 2 \n");
-    printf("Codigo da Carta: %s \n", Codigo_da_Carta);
-    printf("Nome da Cidade: %s \n", Nome_da_Cidade);
-    printf("Populacao: %.2i \n", populacao);
-    printf("Area: %.2f km2\n", Area);
-    printf("PIB: %.2f dólares\n", PIB);
-    printf("Numero de Pontos Turisticos: %i \n", Numero_de_Pontos_Turisticos);
-    printf("\n");
-    printf("\n");
-    printf("Desafio concluído!\n");
+        printf("Carta 1 \n"); 
+        printf("Estado: %c \n", Estado);
+        printf("Codigo da Carta: %s \n", Codigo_da_Carta);
+        printf("Nome da Cidade: %s \n", Nome_da_Cidade);
+        printf("Populacao: %.2i \n", populacao);
+        printf("Area: %.2f km2\n", Area);
+        printf("PIB: %.2f reais\n", PIB);
+        printf("Numero de Pontos Turisticos: %i \n", Numero_de_Pontos_Turisticos);
 
 
-/*
-FALTA DELIMITAR OS DADOS QUE O USUARIO PODE INSERIR:
+        printf("\n");
 
-vvvvvvvvvvvvvv
+        // Repetir o processo para a segunda carta
 
-Estado: Apenas letras de A a H
-Código da Carta: A letra do estado seguida de um número de 01 a 04
-População: Apenas números inteiros positivos
+        printf("Digite os dados da segunda carta:\n");
+        printf("Carta 2 \n");
+
+        printf("Insira uma letra de 'A' a 'H' para representar o Estado: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%s", &Estado); // Área para ---colher os dados inseridos pelo usuario
+
+        printf("Para o Codigo da Carta, insira a letra do Estado seguida de um número de 01 a 04: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%s", Codigo_da_Carta); // Área para ---colher os dados inseridos pelo usuario
+
+        printf("Nome da Cidade: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%s", Nome_da_Cidade); // Área para ---colher os dados inseridos pelo usuario
+
+        printf("Populacao: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%i", &populacao); // Área para ---colher os dados inseridos pelo usuario
+
+        printf("Area: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%f", &Area); // Área para ---colher os dados inseridos pelo usuario
+
+        printf("PIB: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%f", &PIB); // Área para ---colher os dados inseridos pelo usuario
+
+        printf("Numero de Pontos Turisticos: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        scanf("%i", &Numero_de_Pontos_Turisticos); // Área para ---colher os dados inseridos pelo usuario
+        printf("\n");
 
 
-*/
-    
+        //Área de apresentação dos dados da segunda carta
+
+        printf("Carta 2 \n");
+        printf("Estado: %c \n", Estado);
+        printf("Codigo da Carta: %s \n", Codigo_da_Carta);
+        printf("Nome da Cidade: %s \n", Nome_da_Cidade);
+        printf("Populacao: %.2i \n", populacao);
+        printf("Area: %.2f km2\n", Area);
+        printf("PIB: %.2f reais\n", PIB);
+        printf("Numero de Pontos Turisticos: %i \n", Numero_de_Pontos_Turisticos);
+        printf("\n");
+        printf("\n");
+        printf("Desafio concluído!\n");
 
 
-    // lembrete de usar o especificador correto no scanf e printf
-    //printf("Digite a sua idade: ");
-    //scanf("%i", &idade);
-
+        //Fim do programa
   
 
 
