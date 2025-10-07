@@ -5,23 +5,23 @@
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
 
 int main() {
-    // Área para apresentação e contexto do desafio
-    printf("Desafio Cartas Super Trunfo!\n"); 
-    printf("\n");
-    printf("Digite os dados da primeira carta:\n");
-    printf("\n"); 
+       // Área para apresentação e contexto do desafio
+       printf("Desafio Cartas Super Trunfo!\n"); 
+       printf("\n");
+       printf("Digite os dados da primeira carta:\n");
+       printf("\n"); 
 
-  // Área para definição das variáveis para armazenar as propriedades das cidades
+        // Área para definição das variáveis para armazenar as propriedades das cidades
     
-    char Carta1 [20] = "Carta 1";
-    char Carta2 [20] = "Carta 2";
-    char Estado;
-    char Codigo_da_Carta [10];
-    char Nome_da_Cidade [30];
-    int populacao;
-    float Area;
-    float PIB;
-    int Numero_de_Pontos_Turisticos;
+        char Carta1 [20] = "Carta 1";
+        char Carta2 [20] = "Carta 2";
+        char Estado;
+        char Codigo_da_Carta [10];
+        char Nome_da_Cidade [30];
+        int populacao;
+        float Area;
+        float PIB;
+        int Numero_de_Pontos_Turisticos;
 
         // Área para entrada e saída dos dados das cartas
 
