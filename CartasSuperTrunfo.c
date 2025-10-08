@@ -27,7 +27,7 @@ int main() {
 
         printf("Carta 1 \n");
         printf("\n");
-        p letra de 'A' a 'H' para representar o Estado: \n"); // Área para >>>solicitar os dados da carta ao usuario
+        printf("Insira uma letra de 'A' a 'H' para representar o Estado: \n"); // Área para >>>solicitar os dados da carta ao usuario
         scanf("%c", &Estado); // Área para ---colher os dados inseridos pelo usuario
 
         printf("Para o Codigo da Carta, insira a letra do Estado seguida de um número de 01 a 04: \n"); // Área para >>>solicitar os dados da carta ao usuario
